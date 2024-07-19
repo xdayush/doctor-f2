@@ -1,0 +1,63 @@
+.top-div{
+        background-image: url('../../public/img/top-bg.jpg');
+        background-size: cover; /* To cover the entire div */
+        background-position: center; /* To center the image */
+        width: 100%;
+        height: 100vh; /* Full viewport height */
+        /* filter: blur(4px); */
+        overflow: hidden;
+}
+.custom-card {
+    background: rgba(255, 255, 255, 0.7); /* White with some transparency */
+    border-radius: 20px; /* Rounded corners */
+    padding: 20px; /* Padding around the content */
+    margin-top: 20px; /* Margin from the top */
+  }
+  
+  .custom-card .card-title {
+    color: #7f8c8d; /* Light grey color */
+    font-size: 1.2em; /* Slightly larger font size */
+  }
+  
+  .custom-card .card-text2 {
+    font-weight: bold;
+    font-size: 2.5em; /* Large font size for the header */
+  }
+  
+  .custom-card .card-text {
+    font-size: 1.2em; /* Slightly larger font size for the text */
+    margin-bottom: 20px; /* Space between the text and the button */
+  }
+  
+  .custom-card .btn-primary {
+    background-color: #478ac9; /* Primary color for the button */
+    border: none; /* No border */
+    border-radius: 25px; /* Rounded button */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 1em; /* Normal font size */
+  }
+  
+  .custom-card .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+.card-div{
+    margin-left: 50px;
+    padding-top: 100px;
+}  
+.bottom-div{
+    height: 40vh ;
+    width: 100%;
+    background-color: #478ac9;
+    color: white;
+    overflow: hidden;
+}
+.bottom-div h1{
+    padding-top: 20px;
+}
+.btn-home{
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 50px;
+    margin: 20px;
+}

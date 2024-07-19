@@ -1,0 +1,43 @@
+/* Set the body and html height to 100% */
+html, body {
+    height: 100%;
+}
+
+/* Main container div */
+.main-div4 {
+    height: 100vh; /* 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* Space around the items */
+}
+
+.row-div1-4, .row-div2-4 {
+    display: flex;
+    justify-content: space-around;
+    flex: 1; /* This will make the rows take equal space */
+}
+
+.container-div-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-div-4 img {
+    height: 10vh;
+    width: 50vh;
+    flex: 1;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.container-div-4 h5, .container-div-4 p {
+    text-align: center;
+}
+.row-div1-4{
+    margin-top: 100px;
+}
+.container-div-4 p{
+    font-size: 18px;
+    text-wrap:balance;
+}

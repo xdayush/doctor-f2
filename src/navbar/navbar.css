@@ -1,0 +1,9 @@
+.navbar-brand,.container-fluid,.navbar{
+    padding: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+.navbar-main{
+    text-wrap: nowrap;
+    
+}
